@@ -284,10 +284,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2 \
-    rild_socket \
-    telephony-ext
+    rild_socket 
+ #   telephony-ext
 
-PRODUCT_BOOT_JARS += telephony-ext
+#PRODUCT_BOOT_JARS += telephony-ext
 
 # Sensors
 PRODUCT_PACKAGES += \
